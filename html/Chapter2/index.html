@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Books to read</h1>
+    <p>there are lots of books to read</p>
+    <!-- example of absolute link -->
+    <a href="https://www.google.co.in/">go to this website</a>
+    <h1>Heading</h1>
+    <hr>
+    <h1>This is a heading </h1>
+    <h2>This is a heading </h2>
+    <h3>This is a heading </h3>
+    <h4>This is a heading </h4>
+    <h5>This is a heading </h5>
+    <h6>This is a heading </h6>
+    <hr>
+    <h2>Heading 2</h2>
+    <hr>
+    <hr>
+    <hr>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus accusamus dicta, ex perspiciatis a illo fugiat sint, culpa error magni at modi nam laborum eius nulla totam. Nostrum quo in pariatur eum rem ut!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, laudantium. Quo, unde cupiditate distinctio reiciendis tempore eum voluptatibus modi repudiandae eius. Ullam, error libero atque, dolor delectus recusandae quis architecto iste quae illo et pariatur maiores accusantium natus ea suscipit laborum distinctio aut est voluptatum a, impedit omnis officia in! Possimus blanditiis expedita ducimus?</p>
+    <!-- example of relative link -->
+    <a href="/about.html">go to about</a>
+    <!-- image tag -->
+    <!-- relative url -->
+    <img src="https://sportshub.cbsistatic.com/i/2021/04/10/5fb6d26e-d7b2-4c4b-b973-9e249fcdd4bc/black-clover-asta-buff-post-timeskip-spade-kingdom-arc-anime-1251488.jpg?width=1200" alt="Asta" width="121px">
+    <hr>
+    <!-- absolute url -->
+    <img src="/gohanss2.jpg" alt="Gohan Super Saiyan 2" width="100px" >
+    <!-- bold italic underline tag -->
+    <b>bold tag</b>
+    <br>
+    <i>italic tag</i>
+    <br>
+    <u>underlined tag</u>
+    <u>underlined tag</u>
+    <br>
+    <big>this is big</big>
+    <hr>
+    <small>this is small</small>
+    <!-- subscript and superscript -->
+    <p>C + O<sub>2</sub>&rarr; CO<sub>2</sub></p>
+    <p>a <sup>2</sup>+ bx + c</p>
+    <br>
+    <!-- rendered as it is (preserved) -->
+    <pre>public class Main {
+
+        public static void main(String[] args) {
+      
+          // year to be checked
+          int year = 1996;
+          boolean leap = false;
+      
+          // if the year is divided by 4
+          if (year % 4 == 0) {
+      
+            // if the year is century
+            if (year % 100 == 0) {
+      
+              // if year is divided by 400
+              // then it is a leap year
+              if (year % 400 == 0)
+                leap = true;
+              else
+                leap = false;
+            }
+            
+            // if the year is not century
+            else
+              leap = true;
+          }
+          
+          else
+            leap = false;
+      
+          if (leap)
+            System.out.println(year + " is a leap year.");
+          else
+            System.out.println(year + " is not a leap year.");
+        }
+      }</pre>
+
+</body>
+</html>
