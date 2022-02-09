@@ -1,0 +1,9 @@
+.red {
+  background: red;
+  color: white;
+  height: 300px;
+}
+.green {
+  background: rgba(137, 43, 226, 0.61);
+  color: rgb(41, 238, 15);
+}
